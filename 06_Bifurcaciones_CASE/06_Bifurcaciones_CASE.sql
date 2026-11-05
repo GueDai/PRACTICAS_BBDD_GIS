@@ -27,7 +27,7 @@ select * from alumnos;
 
 
 -- Recodificamos una variable usando (case when y luego else).
-SELECT Nombre, nota
+SELECT Nombre, nota,
 	CASE
 		WHEN nota < 5 THEN 'Suspenso'
 		WHEN nota < 7 THEN 'Aprobado'
